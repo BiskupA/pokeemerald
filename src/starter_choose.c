@@ -485,7 +485,7 @@ static void Task_HandleStarterChooseInput(u8 taskId)
 {
     u8 selection = gTasks[taskId].tStarterSelection;
 
-    if (JOY_NEW(A_BUTTON))
+    if (JOY_NEW(A_BUTTON))https://github.com/huderlem/poryscript
     {
         u8 spriteId;
 
